@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		002648CC293201B9009E34BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002648CB293201B9009E34BC /* AppDelegate.swift */; };
 		002648CE293201B9009E34BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002648CD293201B9009E34BC /* SceneDelegate.swift */; };
-		002648D0293201B9009E34BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002648CF293201B9009E34BC /* ViewController.swift */; };
 		002648D3293201B9009E34BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002648D1293201B9009E34BC /* Main.storyboard */; };
 		002648D5293201BD009E34BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002648D4293201BD009E34BC /* Assets.xcassets */; };
 		002648D8293201BD009E34BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002648D6293201BD009E34BC /* LaunchScreen.storyboard */; };
+		002648E029320F93009E34BC /* HomeViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002648DF29320F93009E34BC /* HomeViewControlller.swift */; };
+		002648E229362690009E34BC /* MemoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002648E129362690009E34BC /* MemoDataModel.swift */; };
+		002648E429362B34009E34BC /* MemoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002648E329362B34009E34BC /* MemoDetailViewController.swift */; };
+		00FFA4E7294BEF33001CCBAF /* MyColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FFA4E6294BEF33001CCBAF /* MyColorType.swift */; };
+		29DCD5ACBA59A7E6AB1E89BA /* Pods_MyColorMemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1C0AD2C6DA172C7F6B0882 /* Pods_MyColorMemoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		002648C8293201B9009E34BC /* MyColorMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyColorMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		002648CB293201B9009E34BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		002648CD293201B9009E34BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		002648CF293201B9009E34BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		002648D2293201B9009E34BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		002648D4293201BD009E34BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		002648D7293201BD009E34BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		002648D9293201BD009E34BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002648DF29320F93009E34BC /* HomeViewControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControlller.swift; sourceTree = "<group>"; };
+		002648E129362690009E34BC /* MemoDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDataModel.swift; sourceTree = "<group>"; };
+		002648E329362B34009E34BC /* MemoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewController.swift; sourceTree = "<group>"; };
+		00FFA4E6294BEF33001CCBAF /* MyColorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorType.swift; sourceTree = "<group>"; };
+		3D1C0AD2C6DA172C7F6B0882 /* Pods_MyColorMemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyColorMemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C56B548DAFCAA7D4A19499 /* Pods-MyColorMemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyColorMemoApp.release.xcconfig"; path = "Target Support Files/Pods-MyColorMemoApp/Pods-MyColorMemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		EADD54970038B2C9AB9A4380 /* Pods-MyColorMemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyColorMemoApp.debug.xcconfig"; path = "Target Support Files/Pods-MyColorMemoApp/Pods-MyColorMemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29DCD5ACBA59A7E6AB1E89BA /* Pods_MyColorMemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				002648CA293201B9009E34BC /* MyColorMemoApp */,
 				002648C9293201B9009E34BC /* Products */,
+				4E9567DC6697B0F1091E3AB1 /* Pods */,
+				CD1E0E888265AC83072354A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +71,33 @@
 			children = (
 				002648CB293201B9009E34BC /* AppDelegate.swift */,
 				002648CD293201B9009E34BC /* SceneDelegate.swift */,
-				002648CF293201B9009E34BC /* ViewController.swift */,
 				002648D1293201B9009E34BC /* Main.storyboard */,
 				002648D4293201BD009E34BC /* Assets.xcassets */,
 				002648D6293201BD009E34BC /* LaunchScreen.storyboard */,
 				002648D9293201BD009E34BC /* Info.plist */,
+				002648DF29320F93009E34BC /* HomeViewControlller.swift */,
+				002648E129362690009E34BC /* MemoDataModel.swift */,
+				002648E329362B34009E34BC /* MemoDetailViewController.swift */,
+				00FFA4E6294BEF33001CCBAF /* MyColorType.swift */,
 			);
 			path = MyColorMemoApp;
+			sourceTree = "<group>";
+		};
+		4E9567DC6697B0F1091E3AB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EADD54970038B2C9AB9A4380 /* Pods-MyColorMemoApp.debug.xcconfig */,
+				56C56B548DAFCAA7D4A19499 /* Pods-MyColorMemoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD1E0E888265AC83072354A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D1C0AD2C6DA172C7F6B0882 /* Pods_MyColorMemoApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 002648DC293201BD009E34BC /* Build configuration list for PBXNativeTarget "MyColorMemoApp" */;
 			buildPhases = (
+				1E35D1E9285710A03E4EDAA6 /* [CP] Check Pods Manifest.lock */,
 				002648C4293201B9009E34BC /* Sources */,
 				002648C5293201B9009E34BC /* Frameworks */,
 				002648C6293201B9009E34BC /* Resources */,
+				7A5104C6F7394C6B812C44AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +168,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E35D1E9285710A03E4EDAA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyColorMemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A5104C6F7394C6B812C44AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyColorMemoApp/Pods-MyColorMemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyColorMemoApp/Pods-MyColorMemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyColorMemoApp/Pods-MyColorMemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		002648C4293201B9009E34BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				002648D0293201B9009E34BC /* ViewController.swift in Sources */,
+				002648E429362B34009E34BC /* MemoDetailViewController.swift in Sources */,
 				002648CC293201B9009E34BC /* AppDelegate.swift in Sources */,
+				002648E029320F93009E34BC /* HomeViewControlller.swift in Sources */,
 				002648CE293201B9009E34BC /* SceneDelegate.swift in Sources */,
+				002648E229362690009E34BC /* MemoDataModel.swift in Sources */,
+				00FFA4E7294BEF33001CCBAF /* MyColorType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +362,7 @@
 		};
 		002648DD293201BD009E34BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EADD54970038B2C9AB9A4380 /* Pods-MyColorMemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +391,7 @@
 		};
 		002648DE293201BD009E34BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C56B548DAFCAA7D4A19499 /* Pods-MyColorMemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
